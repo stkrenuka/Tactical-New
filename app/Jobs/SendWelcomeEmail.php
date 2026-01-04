@@ -35,6 +35,6 @@ class SendWelcomeEmail implements ShouldQueue
                 Log::info('finnaly', ['data'=>$this->user]);
                 // Simulate sending email
                 Log::info("Welcome email sent to: " . $this->user->email);
-                Log::info('finnallya2',[''])
-    }
+
+}
 }
